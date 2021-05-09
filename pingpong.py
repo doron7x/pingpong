@@ -13,7 +13,7 @@ class GameSprite(sprite.Sprite):
  
    def reset(self):
        window.blit(self.image, (self.rect.x, self.rect.y))
-
+#написать программу
 #игровая сцена:
 back = (200, 255, 255) #цвет фона (background)
 win_width = 600
